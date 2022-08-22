@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_main"
+    app:startDestination="@id/labelsFragment">
+
+    <fragment
+        android:id="@+id/labelsFragment"
+        android:name="br.com.wellintonvieira.labelgenerator.ui.fragments.LabelsFragment"
+        android:label="fragment_labels"
+        tools:layout="@layout/fragment_labels" >
+        <action
+            android:id="@+id/action_labelsFragment_to_labelDetailFragment"
+            app:destination="@id/labelDetailFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/labelDetailFragment"
+        android:name="br.com.wellintonvieira.labelgenerator.ui.fragments.LabelDetailFragment"
+        android:label="fragment_label_detail"
+        tools:layout="@layout/fragment_label_detail" />
+
+</navigation>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_margin_min">8dp</dimen>
+    <dimen name="layout_margin_med">16dp</dimen>
+    <dimen name="layout_margin_max">32dp</dimen>
+    <dimen name="layout_margin_big">48dp</dimen>
+
+    <dimen name="card_view_elevation_min">5dp</dimen>
+    <dimen name="card_view_elevation_max">10dp</dimen>
+    <dimen name="card_view_radius_min">10dp</dimen>
+    <dimen name="card_view_radius_max">20dp</dimen>
+
+    <dimen name="text_view_title_max">30sp</dimen>
+    <dimen name="text_view_title_min">20sp</dimen>
+    <dimen name="text_view_body_max">16sp</dimen>
+    <dimen name="text_view_body_min">8sp</dimen>
+</resources>
